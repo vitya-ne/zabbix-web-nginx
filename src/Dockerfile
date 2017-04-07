@@ -67,7 +67,6 @@ WORKDIR /usr/share/zabbix
 VOLUME ["/etc/ssl/nginx"]
 
 COPY files /
-ADD run_zabbix_component.sh /
 
 ENTRYPOINT ["/bin/bash"]
 
