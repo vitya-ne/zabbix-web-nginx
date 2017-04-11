@@ -30,8 +30,7 @@ ZBX_SERVER_HOST=${ZBX_SERVER_HOST:-"zabbix-server"}
 ZBX_SERVER_PORT=${ZBX_SERVER_PORT:-"10051"}
 
 # Default timezone for web interface
-# !! TZ=${TZ:-"Europe/Riga"}
-TZ=${TZ:-"Europe/Minsk"}
+TZ=${TZ:-"Europe/Riga"}
 
 # Default directories
 # User 'zabbix' home directory
